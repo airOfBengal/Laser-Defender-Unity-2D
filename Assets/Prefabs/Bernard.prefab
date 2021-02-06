@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7244761073516372527}
   - component: {fileID: 5966762513386910771}
   - component: {fileID: 3841332688114794278}
+  - component: {fileID: 66420133573058978}
+  - component: {fileID: 148052174955321183}
   m_Layer: 0
   m_Name: Bernard
   m_TagString: Untagged
@@ -94,3 +96,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155664ea3d0304a23a112f0344aa3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &66420133573058978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232491558342364800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 718eb749cfc5c4ce4beb1f93fcf1916c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+--- !u!58 &148052174955321183
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232491558342364800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.072898805}
+  serializedVersion: 2
+  m_Radius: 0.3921012
