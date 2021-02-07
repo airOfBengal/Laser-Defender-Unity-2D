@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3841332688114794278}
   - component: {fileID: 66420133573058978}
   - component: {fileID: 148052174955321183}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bernard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,6 +109,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  projectile: {fileID: 0}
+  projectileSpeed: 10
 --- !u!58 &148052174955321183
 CircleCollider2D:
   m_ObjectHideFlags: 0
